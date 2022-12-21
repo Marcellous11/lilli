@@ -38,28 +38,28 @@ function App() {
 			</div>
 			<div className={counter === 1 ? 'active' : 'notActive'}>
 				<Lilli
-					love="You're beautiful and amazing. I'm not generally interested in cowgirls but you darlling make it work!"
+					love="You're beautiful and amazing. I'm not generally interested in cowgirls but you darling make it work!"
 					pic={lilliFancy}
 				/>
 			</div>
 			<div className={counter === 2 ? 'active' : 'notActive'}>
-				<Lilli love="This was a really lovely night, we need to have more like it." pic={star} />
+				<Lilli love="This was a really lovely night; we need to have more like it." pic={star} />
 			</div>
 			<div className={counter === 3 ? 'active' : 'notActive'}>
 				<Lilli
-					love="I was gunna add the third photo but thought I'd just show us :) but we both we she was there that night!!"
+					love="I was going to add the third photo but thought I'd just show us :) but we both we she was there that night!!"
 					pic={star2}
 				/>
 			</div>
 			<div className={counter === 4 ? 'active' : 'notActive'}>
 				<Lilli
-					love="I not only loved your outfit, but all your amazing work that was floating around the party. You are so very talented and I'm excited to see all the beautiful art work you create in the future"
+					love="I not only loved your outfit, but all your amazing work that was floating around the party. You are so very talented and I'm excited to see all the beautiful artwork you create in the future"
 					pic={lilliFancy2}
 				/>
 			</div>
 			<div className={counter === 5 ? 'active' : 'notActive'}>
 				<Lilli
-					love="I love this photo for the vibe lol its fun going places with you because it doesn't really matter where we go, as long as I'm with you its a good time :)"
+					love="I love this photo for the vibe lol it’s fun going places with you because it doesn't really matter where we go, as long as I'm with you it’s a good time :)"
 					pic={lilliDrip}
 				/>
 			</div>
@@ -71,7 +71,7 @@ function App() {
 			</div>
 			<div className={counter === 7 ? 'active' : 'notActive'}>
 				<Lilli
-					love="These days are precious, when we accidently wear the same outfit. We need to get matching PJs, put that on the calendar. "
+					love="The days when we accidently wear the same outfit are precious. We need to get matching PJs, put that on the calendar. "
 					pic={twins}
 				/>
 			</div>
