@@ -1,0 +1,42 @@
+html {
+	scroll-behavior: smooth;
+}
+.App {
+	background-color: rgb(227, 212, 203);
+	padding: 0vw 10vw;
+	scroll-snap-type: y mandatory;
+	overflow: scroll;
+}
+.notActive {
+	display: none;
+	transition: opacity 1s ease-out;
+	opacity: 0;
+}
+.active {
+	display: flex;
+}
+
+.Btn-tag {
+	width: 30vw;
+	height: 5vh;
+	background-color: rgb(184, 180, 142);
+	color: rgb(90, 71, 56);
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	scroll-behavior: smooth;
+	margin: auto;
+	margin-top: 5em;
+	margin-bottom: 0;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bolder;
+	border-radius: 1rem;
+	transition: 0.3s;
+}
+.Btn-tag:hover {
+	color: rgb(184, 180, 142);
+	background-color: rgb(90, 71, 56);
+}

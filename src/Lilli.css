@@ -1,0 +1,55 @@
+.Lilli {
+	width: 70vw;
+	height: 80vh;
+	background-color: rgb(227, 212, 203);
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	margin: auto;
+	margin-bottom: 0;
+	color: rgb(227, 212, 203);
+	color: rgb(182, 114, 105);
+	color: rgb(145, 113, 89);
+	color: rgb(90, 71, 56);
+	color: rgb(184, 180, 142);
+	color: rgb(220, 174, 165);
+	scroll-snap-align: center;
+}
+img {
+	object-fit: contain;
+	width: 40vmin;
+	border-radius: 15rem;
+}
+
+.Lilli-pictureFrame {
+	width: 40vmax;
+	height: 25rem;
+	background-color: rgb(182, 114, 105, .7);
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px 10px 0 0;
+	padding: 0.65em;
+
+	backdrop-filter: blur(5px);
+}
+
+.Lilli-poem {
+	width: 40vmax;
+
+	font-size: 1.3rem;
+	color: rgb(90, 71, 56);
+	background-color: rgb(182, 114, 105, .7);
+	margin: auto;
+	margin-top: 0;
+
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	text-align: center;
+	padding: 0.5em;
+}
