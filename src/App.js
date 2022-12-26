@@ -47,7 +47,7 @@ function App() {
 			</div>
 			<div className={counter === 3 ? 'active' : 'notActive'}>
 				<Lilli
-					love="I was going to add the third photo but thought I'd just show us :) but we both we she was there that night!!"
+					love="I love this photo of the three of us lol I thought about adding the third picture from this night but decided it was best to leave it out!!"
 					pic={star2}
 				/>
 			</div>
@@ -59,7 +59,7 @@ function App() {
 			</div>
 			<div className={counter === 5 ? 'active' : 'notActive'}>
 				<Lilli
-					love="I love this photo for the vibe lol it’s fun going places with you because it doesn't really matter where we go, as long as I'm with you it’s a good time :)"
+					love="I love this photo for the vibe lol it's fun going places with you because it doesn't really matter where we go, as long as I'm with you it’s a good time :)"
 					pic={lilliDrip}
 				/>
 			</div>
@@ -76,7 +76,7 @@ function App() {
 				/>
 			</div>
 			<div className={counter === 8 ? 'active' : 'notActive'}>
-				<Lilli love="This could be out best photo, need I say more?" pic={cowboy} />
+				<Lilli love="This could be our best photo, need I say more?" pic={cowboy} />
 			</div>
 			<div className="Btn">
 				<a className="Btn-tag" onClick={() => setCounter(counter + 1)}>

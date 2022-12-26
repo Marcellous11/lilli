@@ -1,6 +1,6 @@
 .Intro {
 	width: 70vw;
-	height: 100vh;
+	height: 45em;
 	background-color: rgb(227, 212, 203);
 	padding: 10px;
 	display: flex;
@@ -31,7 +31,7 @@
 	align-items: center;
 	scroll-behavior: smooth;
 	margin: auto;
-	margin-top: 5em;
+	margin-top: 3em;
 	margin-bottom: 0;
 	text-decoration: none;
 	font-size: 2em;
