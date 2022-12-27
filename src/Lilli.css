@@ -20,7 +20,7 @@
 }
 img {
 	object-fit: contain;
-	width: 40vmin;
+	width: 40vmax;
 	border-radius: 15rem;
 }
 
