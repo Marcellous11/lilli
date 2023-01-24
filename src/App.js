@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Lilli from './Lilli';
 import Intro from './Intro';
-import Button from './Button';
-import './Button.css';
 import drawing from './images/IMG_0854.jpg';
 import lilliFancy from './images/IMG_2334.JPG';
 import lilliFancy2 from './images/IMG_2335.JPG';
@@ -33,7 +31,7 @@ function App() {
 				<Intro />
 			</section>
 
-			<section className="Section2" id="start">
+			<section className="Section2">
 				<div className={counter === 0 ? 'active' : 'notActive'}>
 					<Lilli love="This is probably one of best drawings I've ever seen. " pic={drawing} />
 				</div>
@@ -79,7 +77,7 @@ function App() {
 				<div className={counter === 8 ? 'active' : 'notActive'}>
 					<Lilli love="This could be our best photo, need I say more?" pic={cowboy} />
 				</div>
-				<div className="Btn">
+				<div className="Btn" id="start">
 					<a className="Btn-tag" onClick={() => setCounter(counter + 1)}>
 						Next
 					</a>

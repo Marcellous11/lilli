@@ -1,6 +1,6 @@
 .Lilli {
-	width: 70vw;
-	height: 80vh;
+	/* width: 70%; */
+	/* height: 80%; */
 	background-color: rgb(227, 212, 203);
 	padding: 10px;
 	display: flex;
@@ -28,7 +28,7 @@ img {
 	width: 40vmax;
 	height: 25em;
 	background-color: rgb(182, 114, 105, .7);
-	margin: auto;
+	/* margin: auto; */
 	margin-top: 1rem;
 	margin-bottom: 0;
 	display: flex;
@@ -45,7 +45,7 @@ img {
 	font-size: 1.3rem;
 	color: rgb(90, 71, 56);
 	background-color: rgb(182, 114, 105, .7);
-	margin: auto;
+	/* margin: auto; */
 	margin-top: 0;
 	margin-bottom: 1em;
 	border-radius: 0px 0px 10px 10px;
