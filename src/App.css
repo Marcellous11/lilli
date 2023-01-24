@@ -10,6 +10,8 @@ html {
 .Section2 {
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
+	justify-content: flex-end;
 }
 
 .notActive {
@@ -25,6 +27,7 @@ html {
 	display: flex;
 	width: 50%;
 	margin: 0 auto;
+	margin-bottom: 4rem;
 }
 
 .Btn-tag {
